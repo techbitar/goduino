@@ -6,7 +6,10 @@ The GOduino III is an Arduino clone. It's built with DIP ICs and through-hole co
 
 Project: GOduino III robot controller
 
-Designer: Hazim Bitar (techbitar at gmail dot com)
+Designer: Hazim Bitar (techbitar at gmail dot com) 
+
+Organization: PIN 13 Protospace (facebook.com/pin13)
+
 
 Date: July 12, 2012
 

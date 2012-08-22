@@ -1,0 +1,18 @@
+#######################################
+# Syntax Coloring Map For GOduino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Goduino	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+motorstop	KEYWORD2
+motorforward	KEYWORD2
+motorback	KEYWORD2
+motorspeed	KEYWORD2

@@ -1,8 +1,8 @@
 /*
   File: Goduino.h - Library for controlling the GOduino III robot controller.
   Created by: Hazim Bitar (techbitar at gmail dot com)
-  Date: August 20, 20012.
-  Version: 0.1 beta
+  Date: August 23, 20012.
+  Version: 0.11 beta
   License: Released into the public domain.
 */
 #ifndef Goduino_h
@@ -14,10 +14,10 @@ class Goduino
 {
 public:
   Goduino();
-  void motorstop(uint8_t motornum);
-  void motorforward(uint8_t motornum);
-  void motorback(uint8_t motornum);
-  void motorspeed(uint16_t motor1speed, uint16_t motor2speed);
+  void motorStop(uint8_t motorNum);
+  void motorForward(uint8_t motorNum);
+  void motorBack(uint8_t motorNum);
+  void motorSpeed(uint16_t mot1speed, uint16_t mot2speed);
 private:
 };
 

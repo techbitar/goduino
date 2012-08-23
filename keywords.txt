@@ -12,7 +12,7 @@ Goduino	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-motorstop	KEYWORD2
-motorforward	KEYWORD2
-motorback	KEYWORD2
-motorspeed	KEYWORD2
+motorStop	KEYWORD2
+motorForward	KEYWORD2
+motorBack	KEYWORD2
+motorSpeed	KEYWORD2

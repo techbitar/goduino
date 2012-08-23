@@ -12,7 +12,7 @@ DESIGNER
 
 Hazim Bitar (techbitar at gmail dot com) 
 
-ORGANiZATION
+ORGANIZATION
 
 PIN 13 Protospace (facebook.com/pin13)
 
@@ -29,7 +29,7 @@ Limor Fried: Tutorials and open source products (adafruit.com)
 LICENSE
 
 This code is in the public domain. 
-The hardware design is publisked under the Creative Commons CC2.5-by-sa
+The hardware design is published under the Creative Commons CC2.5-by-sa
 
 
 NO WARRANTY

@@ -2,7 +2,7 @@
  File: goduino.ino - example sketch to test the GOduino III robot controller.
  Created by: Hazim Bitar (techbitar at gmail dot com)
  Date: August 23, 20012.
- Version: 0.11 beta
+ Version: 0.12 beta
  License: Released into the public domain.
  */
 
@@ -12,7 +12,7 @@ Goduino myrobot;
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Set speed of both motors to 100 (max 1024)");
+  Serial.println("Set speed of both motors to 50 (max 1023)");
   myrobot.motorSpeed(50,50);
 }
 

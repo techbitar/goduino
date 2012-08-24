@@ -2,7 +2,7 @@
   File: Goduino.cpp - Library for controlling the GOduino III robot controller.
   Created by: Hazim Bitar (techbitar at gmail dot com)
   Date: August 23, 20012.
-  Version: 0.11 beta
+  Version: 0.12 beta
   License: Released into the public domain.
 */
 
@@ -11,7 +11,7 @@
 
 // map motor poles to Arduino pins
 #define MOT1_POL1 4  
-#define MOT2_POL2 2
+#define MOT1_POL2 2
 #define MOT2_POL1 7
 #define MOT2_POL2 8
 
@@ -32,7 +32,7 @@ Goduino::Goduino()
   pinMode(MOT2_ENA, OUTPUT);
 
   pinMode( MOT1_POL1 , OUTPUT);
-  pinMode( MOT2_POL2, OUTPUT);
+  pinMode( MOT1_POL2, OUTPUT);
   pinMode( MOT2_POL1, OUTPUT);
   pinMode( MOT2_POL2 , OUTPUT);
 
@@ -42,7 +42,7 @@ void Goduino::motorStop(uint8_t motorNum){
   delay(MOT_DELAY);
   if (motorNum == 1) {
     digitalWrite(MOT1_POL1, LOW);
-    digitalWrite(MOT2_POL2, LOW);
+    digitalWrite(MOT1_POL2, LOW);
   }
   else if (motorNum == 2) {
 
@@ -55,7 +55,7 @@ void Goduino::motorStop(uint8_t motorNum){
 void Goduino::motorForward(uint8_t motorNum){
   if (motorNum == 1) {
     digitalWrite(MOT1_POL1, HIGH);
-    digitalWrite(MOT2_POL2, LOW);
+    digitalWrite(MOT1_POL2, LOW);
   }
   else if (motorNum == 2) {
 
@@ -68,7 +68,7 @@ void Goduino::motorForward(uint8_t motorNum){
 void Goduino::motorBack(uint8_t motorNum){
   if (motorNum == 1) {
     digitalWrite(MOT1_POL1, LOW);
-    digitalWrite(MOT2_POL2, HIGH);
+    digitalWrite(MOT1_POL2, HIGH);
   }  
   else if (motorNum == 2) {
     digitalWrite(MOT2_POL1, HIGH);

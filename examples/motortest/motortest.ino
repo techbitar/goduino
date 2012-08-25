@@ -1,5 +1,5 @@
 /*
- File: goduino.ino - example sketch to test the GOduino III robot controller.
+ File: motortest.ino - example sketch to test the GOduino III robot controller.
  Created by: Hazim Bitar (techbitar at gmail dot com)
  Date: August 23, 20012.
  Version: 0.11 beta
